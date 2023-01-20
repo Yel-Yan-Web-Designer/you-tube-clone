@@ -1,0 +1,63 @@
+*,*::before,*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.45;
+  background: #000;
+}
+button{
+  border: none;
+  outline: none;
+  display: inline-block;
+}
+input{
+  outline: none;
+  border: none;
+}
+input:focus{
+  outline: none;
+  border: none;
+}
+img{
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+a{
+  text-decoration : none;
+}
+::-webkit-scrollbar{
+  width: 0px;
+  height: 5px;
+}
+::-webkit-scrollbar-thumb{
+  background: red;
+  border-radius: 10px;
+  height: 10px;
+}
+/* ---Sidebar--- */
+.category-btn{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding-top : 0.35rem;
+  padding-bottom: 0.35rem;
+  padding-inline: 10px;
+  border-radius: 20px;
+  column-gap: 0.5rem;
+  background: #000;
+  transition: all 0.2s ease-in-out;
+}
+.category-btn:hover{
+  background: hsl(4, 98%, 50%, 0.75);
+}
+.reactPlayer{
+  width : 100% !important;
+}
